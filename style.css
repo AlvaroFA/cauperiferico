@@ -1,0 +1,101 @@
+ * {
+
+     font-family: Calibri,Arial;
+}
+
+ #menuLateralIzquierdo {
+     background-color: rgb(10,79,127);
+     height:100%;
+     width: 20%;
+     float: left;
+ }
+
+ #menuCabecera{
+     background-color: rgb(3,113,179);
+     height:10%;
+     width:100%;
+     display:inline-block;
+
+ }
+
+ #menuCabecera h1{
+     background-color: rgb(3,113,179);
+     color: white;
+     margin-left: 2%;
+ }
+
+ #menuCabecera h1 a{
+text-decoration: none;
+     color: white;
+ }
+
+ #cuerpoCentral{
+
+     height: 100%;
+     width: 77%;
+     display: inline-block;
+     margin-left: 2%;
+     margin-right: 1%;
+     margin-top: 2%;
+
+
+ }
+
+
+ .listacontenedor
+ {
+     padding-right: 0px;
+     padding-left: 0px;
+     padding-bottom: 0px;
+     padding-top: 0px;
+     width: 80%;
+ }
+
+#enlaces{
+    width: 80%;
+    height: 15%;
+    margin-left: 10%;
+}
+
+.listacontenedor  .enlaceContainer {
+    width: 100%;
+    margin-top: 2%;
+    background-color: rgb(248,105,13);
+    list-style: none;
+}
+
+.enlaceContainer .enlace{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    display: block;
+    text-align: center;
+
+}
+
+.enlaceContainer:hover .subenlace{
+    display: block;
+}
+
+.subenlace{
+    display: none;
+    text-decoration: none;
+    color: white;
+    width: 80%;
+    text-align: center;
+
+}
+
+.subenlace  .enlace{
+    margin-left: 15%;
+
+}
+
+ #areaTexto{
+     width: 90%;
+     height: 100%;
+
+ }
+ #textoContenedor{
+
+ }
