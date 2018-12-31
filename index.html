@@ -1,63 +1,99 @@
+
 <html>
-<head>
-    <meta charset="UTF-8"></meta>
-    <title>Páxina de soporte CAU-PERIFERICO</title>
-    <link href="style.css" rel="stylesheet" type="text/css"></head>
-    <script src="js/front.js"></script>
+	<head>
+		<meta charset="utf-8">
+		<title>CAU PERIFERICO</title>
+		<link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+		<script src='./js/frontal.js'></script>
+	</head>
 
-</head>
 <body>
- <div id="menuCabecera">
-     <h1><a href="index.html">Páxina de soporte do Cau Periferico</a></h1>
- </div>
-<div id="menuLateralIzquierdo">
-    <nav id="enlaces">
-        <ul class="listacontenedor">
-            <li class="enlaceContainer"><a class="enlace" href="#" onclick="imprimirArchivo('external files/a.txt')">Sede</a>
-                <ul class="subenlace">
-                    <li class="subenlace"><a class="enlace" href="#" onclick="imprimirArchivo('external files/a.txt')">Proba chave</a></li>
-                    <li class="subenlace"><a class="enlace" href="#" onclick="imprimirArchivo('a.txt')">Proba autofirma</a></li>
-                    <li class="subenlace"><a class="enlace" href="#" onclick="imprimirArchivo('external files/a.txt')">Probas DNIE</a></li>
-                </ul>
-            </li>
-            <li class="enlaceContainer"><a class="enlace" href="#" onclick="imprimirArchivo('a.txt')">Benestar</a>
-                <ul class="subenlace">
-                    <li class="subenlace"><a class="enlace" href="#" onclick="imprimirArchivo('external files/a.txt')">test</a></li>
-                    <li class="subenlace"><a class="enlace" href="#" onclick="imprimirArchivo('a.txt')">test</a></li>
-                    <li class="subenlace"><a class="enlace" href="#" onclick="imprimirArchivo('external files/a.txt')">test</a></li>
-                    <li class="subenlace"><a class="enlace" href="#" onclick="imprimirArchivo('external files/a.txt')">test</a></li>
-                </ul>
-            </li>
-            <li class="enlaceContainer"><a class="enlace" href="#" onclick="imprimirArchivo('external files/a.txt')">Meiga</a>
-                <ul class="subenlace">
-                    <li class="subenlace"><a class="enlace" href="#" onclick="imprimirArchivo('external files/a.txt')">Sede</a></li>
-                    <li class="subenlace"><a class="enlace" href="#" onclick="imprimirArchivo('a.txt')">Benestar</a></li>
-                    <li class="subenlace"><a class="enlace" href="#" onclick="imprimirArchivo('external files/a.txt')">Meiga</a></li>
-                    <li class="subenlace"><a class="enlace" href="#" onclick="imprimirArchivo('external files/a.txt')">Eidolocal</a></li>
-                </ul>
-            </li>
-            <li class="enlaceContainer"><a class="enlace" href="#" onclick="imprimirArchivo('external files/a.txt')">Eidolocal</a>
-                <ul class="subenlace">
-                    <li class="subenlace"><a class="enlace" href="#" onclick="imprimirArchivo('external files/a.txt')">Sede</a></li>
-                    <li class="subenlace"><a class="enlace" href="#" onclick="imprimirArchivo('a.txt')">Benestar</a></li>
-                    <li class="subenlace"><a class="enlace" href="#" onclick="imprimirArchivo('external files/a.txt')">Meiga</a></li>
-                    <li class="subenlace"><a class="enlace" href="#" onclick="imprimirArchivo('external files/a.txt')">Eidolocal</a></li>
-                </ul>
-            </li>
-
-        </ul>
-
-
-
-
-    </nav>
-</div>
-<div id="cuerpoCentral">
-    <section class="areaTexto">
-        <div id="textoContenedor" >
-            <p id="areaTexto">Saludos a la paxina</p>
-        </div>
-    </section>
-</div>
+	<div class="wrap">
+	<nav>
+		<ul class="menu" >
+			<li><a href="#"onclick='giveLink()'><span class="#"></span> ABM</a>
+			</li>
+			<li><a href="#" onclick='mostrarBarra("BENESTAR")'><span class="#"></span> BENESTAR</a>	
+			</li>
+			<li><a href="#" onclick='mostrarBarra("SOPORTE CIDADANIA")'><span class="#"></span> SOPORTE CIDADANIA</a>
+			</li>
+			<li><a href="#"onclick='mostrarBarra("ENTIDADESLOCAIS")'><span class="#"></span> ENTIDADES LOCAIS</a>
+			<li><a href="#"onclick='mostrarBarra("TURISMO")'><span class="#"></span> TURISMO</a>
+			<li><a href="#" onclick='mostrarBarra("PLANTILLAS OTRS")'><span class="#"></span> PLANTILLAS OTRS</a>
+			</li>
+			<li><a href="#" onclick='mostrarBarra("DOCUMENTACION")'><span class="#"></span> DOCUMENTACION</a>
+			</li>
+		</ul>
+		<div class="clearfix"></div>
+	</nav>
+	</div>
+		<nav id='menuLateral'> 
+		 		<ul class='menu' id='ENTIDADESLOCAIS' >
+					<li><a href="#">RTAXI</a></li>
+					<li><a href="#">HSUE</a></li>
+					<li><a href="#">CIM</a></li>
+					<li><a href="#">REDE CORPORATIVA</a></li>
+					<li><a href="#">SALA SINATURAS</a></li>
+					<li><a href="#">EIDOLOCAL</a></li>
+					<li><a href="#">AIRES / SIR</a></li>
+					<li><a href="#">SILEX</a></li>
+					<li><a href="#">HERMES</a></li>
+					<li><a href="#">PCG</a></li>
+					<li><a href="#">EDOG</a></li>
+					<li><a href="#">ENVIOS XUNTA</a></li>
+					<li><a href="#">PASAXE</a></li>
+					<li><a href="#" onclick='imprimirArchivo("./externalFiles/pcg.txt","texto")'>PCG</a></li>
+				</ul>				
+				<ul class='menu' id='ABM'>
+				<li><a href="#">KOHA</a></li>
+					<li><a href="#">MEIGA</a></li>
+					<li><a href="#">RADIUS</a></li>
+					<li><a href="#">GALICIALE</a></li>
+					<li><a href="#">LER CONTA MOITO</a></li>
+					<li><a href="#">NOVIDADES EDITORIAIS</a></li>
+					<li><a href="#">ESTATÍSTICAS</a></li>
+					<li><a href="#">REDE CORPORATIVA</a></li>
+				</ul>
+				<ul class='menu' id='BENESTAR'>
+					<li><a href="#">ESCINF</a></li>
+					<li><a href="#">CENPOS</a></li>
+					<li><a href="#">HARDWARE</a></li>
+					<li><a href="#">SOFTWARE</a></li>
+					<li><a href="#">REDE CORPORATIVA</a></li>
+					<li><a href="#">IANUS</a></li>
+					<li><a href="#">SILICON</a></li>
+				</ul>
+				<ul class='menu' id='SOPORTE CIDADANIA'>
+					<li><a href="#">SEDE ELECTRONICA</a></li>
+					<li><a href="#">SEDE XUSTIZA</a></li>
+					<li><a href="#">CHAVE 365</a></li>
+					<li><a href="#">NOTIFICA</a></li>
+					<li><a href="#">PORTASINATURAS</a></li>
+					<li><a href="#">INDUSTRIA</a></li>
+					<li><a href="#">SALA SINATURAS</a></li>
+					<li><a href="#">CORWEB</a></li>
+				</ul>
+				<ul class='menu' id='TURISMO'>
+					<li><a href="#">WIFI</a></li>
+				</ul>
+				<ul class='menu' id='PLANTILLAS OTRS'>
+					<li><a href="\\10.0.27.60\Documentos_Compartidos\Tarefas\OTRS\Soporte Cidadanía\Probas Autofirma.txt"target="_blank">AUTOFIRMA</a></li>
+					<li><a href="#">REXISTRO OTRS</a></li>
+					<li><a href="#">XXXXXXXX</a></li>
+					<li><a href="#">XXXXXXXX</a></li>
+					<li><a href="#">XXXXXXXX</a></li>
+				</ul>
+				<ul class='menu' id='DOCUMENTACION'>
+					<li><a href="#">INFORME DE PECHE</a></li>
+					<li><a href="#">TAREFAS SABADO</a></li>
+					<li><a href="#">OTRS</a></li>
+					<li><a href="#">CREDENCIAIS</a></li>
+					<li><a href="#">CREDENCIAIS CIM</a></li>
+					<li><a href="#">SERVIZO TECNICO</a></li>
+				</ul
+		</nav>
+	<div class='texto'>
+	</div>
 </body>
+
 </html>
