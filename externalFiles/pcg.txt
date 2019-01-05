@@ -1,63 +1,97 @@
-﻿ACCESO Á APLICACIÓN 
-1. Precísase certificado dixital para acceder á Plataforma de Contratos Públicos de Galicia? 
+﻿
+##
+ESCALADO: ECONCELLOS
+##
+ACCESO Á APLICACIÓN 
+
+Precísase certificado dixital para acceder á Plataforma de Contratos Públicos de Galicia? 
+
 Si, precísase o certificado dixital da FNMT clase 2CA/Emprega do Público. O acceso será a través da parte privada do portal Eidolocal na opción: O meu eido/As miñas aplicacións. No caso de que o usuario non dispuxera do acceso directo ao servizo nesta opción deberá configuralo no botón “Configuración” do escritorio de Meu Eido. Premendo no botón “Configuración” na sección “Engadir ligazón ás miñas aplicacións” seleccionará o servizo “Plataforma de Contratos Públicos de Galicia” indicando a cor da icona e premendo no botón engadir. 
 
-2. Como dar de alta a un usuario na Plataforma? 
+
+Como dar de alta a un usuario na Plataforma? 
+
 Para solicitar o alta dun usuario no PcPG a entidade local debe estar dada de alta previamente na Plataforma de Contratos Públicos para o que deberá cumprimentar o formulario de solicitude de alta do perfil do contratante (dispoñible na opción da área privada de Eidolocal “Apoio ao usuario”-”Solicitudes e manuais” ou no Meu Eido na sección do CAU en “Documentación apoio ao usuario”) e posteriormente, poderase solicitar o alta dos usuarios da entidade, que se encargarán do mantemento dos datos do perfil da entidade e de introducir os concursos de contratación que leve a cabo. Para dar de alta a estes usuarios deberá cumprimentarse o formulario específico (dispoñible na opción da área privada de Eidolocal “Apoio ao usuario”-”Solicitudes e manuais” ou no Meu Eido na sección do CAU en “Documentación apoio ao usuario”) e remitilo asinado e selado ao CAU. 
+
 No momento que se envía ao CAU o formulario de solicitude de alta do perfil do contratante tamén se pode enviar, ao mesmo tempo, o formulario de solicitude de alta de usuario, asegurándose que tanto o responsable do perfil do contratante como o usuario están dados de alta en EidoLocal. 
+
 Pode atoparse máis información sobre este servizo no catálogo de “Servizos” do portal. 
 
-3. Pódese personalizar a apariencia do perfil da Plataforma dunha Entidade? 
-As Entidades Locais unicamente poderán engadir o seu logo ou escudo no seu perfil da Plataforma, para isto deberán remitilo á conta de
 
+Pódese personalizar a apariencia do perfil da Plataforma dunha Entidade? 
+
+As Entidades Locais unicamente poderán engadir o seu logo ou escudo no seu perfil da Plataforma, para isto deberán remitilo á conta de correo oficina.econcellos@xunta.es. A imaxe deberá ter un tamaño máximo de 159x50px e a ser posible, con fondo transparente. 
+
+##
 XESTIÓN E PUBLICACIÓN DE PROCEDEMENTOS 
-4. Pódese eliminar ou anular un procedemento xa creado? 
+
+ Pódese eliminar ou anular un procedemento xa creado? 
+
 En caso de que se cree con algún erro pódese finalizar o procedemento, sempre e cando se encontre pendente de adxudicar, especificando unha adxudicación de tipo “anulada”. 
 
-5. Pódense achegar ou quitar ficheiros a un procedemento xa creado? 
+ Pódense achegar ou quitar ficheiros a un procedemento xa creado? 
+
 Segundo a fase na que se atope o procedemento a solución desta cuestión será distinta: 
 • Se o procedemento se acaba de publicar en internet e está en fase aberto/en prazo de presentación de ofertas poderanse engadir ficheiros de documentación, en caso de querer anular ou ocultar os documentos deberá ser o usuario administrador quen realice a tarefa. 
 • No caso de que o procedemento xa estea formalizado e adxudicado non se poderá modificar a documentación adxunta do mesmo. De ser totalmente necesario, poderíanse desfacer os pasos, anulando a formalización e logo a adxudicación e posteriormente, abrindo o prazo de presentación para poder engadir, anular ou ocultar os ficheiros en cuestión (anular e ocultar serán tarefas do usuario administrador). 
-##
-6. Como achegar un ficheiro demasiado grande a un procedemento? 
+
+ Como achegar un ficheiro demasiado grande a un procedemento? 
+
 Se o ficheiro que se quere achegar é demasiado grande pódese dividir en varias partes. Para facelo débense indicar claramente as partes do ficheiro e pódese poñer en observacións unha aclaración. 
-7. Como especificar o importe total segundo o tipo de contrato? 
+
+ Como especificar o importe total segundo o tipo de contrato? 
+
 Cando o importe do contrato non se axuste a un importe total predeterminado poderase empregar a casiña de observacións para explicar o caso e dar as aclaracións oportunas. A continuación póñense dous exemplos: 
 • Por exemplo, se o procedemento fai referencia a un contrato por tarifa poderase especificar en importe total “0” e logo en observacións explicar o caso e remitir aos pregos. 
 • En caso de tratarse dun procedemento por lotes, poderase indicar en importe total a suma dos dous proxectos e en observación explicar o caso. 
 
-8. Como ampliar o prazo de presentación a un procedemento xa creado? 
+ Como ampliar o prazo de presentación a un procedemento xa creado? 
+
 Poderase modificar o prazo de presentación se o procedemento está en fase aberto/en prazo de presentación de ofertas ou pendente de adxudicar. Para realizar a modificación deberanse escribir de novo os campos de data e hora de presentación (e o lugar en caso de que corresponda), aínda que un deles se manteña igual que estaba é preciso escribir de novo ambos datos, do contrario, non se activará o campo de confirmar que permite validar o novo prazo de presentación. 
-9. Cómo introducir correctamente a data de formalización con respecto á de adxudicación? 
+##
+ Cómo introducir correctamente a data de formalización con respecto á de adxudicación? 
+
 A data de formalización nunca poderá ser anterior á de difusión da adxudicación, polo tanto, deberase introducir a mesma data ou unha data posterior á mesma. Mentres non se difunde a adxudicación en internet, non poderá levarse a cabo o acto de formalización, xa que é un acto que debe ser posterior ou no mesmo momento. 
 Salientar que as datas da PcPG non se poderán cambiar pois teñen un selado no tempo. 
- 
-10. Por que non aparece visible a licitación dun procedemento? 
+
+ Por que non aparece visible a licitación dun procedemento? 
+
 Un dos motivos máis frecuentes polos que non aparece visible é porque hai que cumprimentar obrigatoriamente a data de publicación no BOP ou no perfil do contratante, datas que fan referencia ao momento no que se difunde o procedemento en internet. 
-11. Por que non se pode pechar un procedemento? 
+
+ Por que non se pode pechar un procedemento? 
+
 Un dos motivos máis frecuentes polos que non se pode pechar un procedemento é porque falta a data límite de presentación de ofertas.
-
-
 ##
 Pregunta frecuentes do OTRS.
 
-1.	Cales son os navegadores recomendados.
+Cales son os navegadores recomendados.
 Según o manual Mozilla e Google Chrome.
-2.	Como podo dar de alta un usuario na plataforma de contratos.
-Para dar de alta un usuario xa sexa administrador ou non teñen que facelo cubrindo un formulario que atoparan na seguinte url:  https://www.eidolocal.gal/biblioteca/ficha?Element=10053 
-3.	¿Cómo podo anular un procedemento? Manual pax 47
+
+Como podo dar de alta un usuario na plataforma de contratos.
+Para dar de alta un usuario xa sexa administrador ou non teñen que facelo cubrindo un formulario que atoparan na seguinte url:'https://www.eidolocal.gal/biblioteca/ficha?Element=10053 
+
+¿Cómo podo anular un procedemento? 
+
 En este caso teñen que facer unha resolución e rexistrar unha dilixencia de anulación subidno o documento xustificativo onde expliquen os motivos. Unha vez confirmada a dilixencia de anulación o procedemento aparecerá como adxudicado
-4.	¿Cómo podo colgar un contrato menor na plataforma de contratos?
+
+¿Cómo podo colgar un contrato menor na plataforma de contratos?
+
 Para poder colgar contratos menores o Administrador ten que acceder o perfil do contratante na solapa de mantemento do perfil -  apartado "Url contratos menores" e añadir a url de donde están anunciado o contrato menor.
-5.	Non me  aparece a data de publicación do procedemento e continua en estado “pendente de publicación”
+
+Non me  aparece a data de publicación do procedemento e continua en estado “pendente de publicación”
+
 Teñen que ir pestaña de “publicación” e no apartado de Medios de publicación e pulsar en “NON” no medio que desexemos anunciar,  para que se realice a publicación. 
 No caso do BOE teñen que facer a publicación no BOE e despois facer o proceso anterior para que se mostre de maneira informativa a data. 
 Para que se mostre na plataforma do estado teñen que marcar a opción PLACSP
-6.	Como modifico un procedemento en estado adxudicado
+
+Como modifico un procedemento en estado adxudicado
+
 Indicamos que teñen que engadir unha dirixencia de anulación indicando o erro administrativo para poder correxilo.
-7.	Queren poner unha data inferior a actual en algún momento do proceso.
+
+Queren poner unha data inferior a actual en algún momento do proceso.
 Non se pode (a aplicación non o admite)  teñen que contactar coa xunta consultiva. 
-8.	Despois de subir documentación e publicala podo elimiala.
+
+Despois de subir documentación e publicala podo elimiala.
 Unha vez que se fai pública a información non podemos eliminala. 
 
 

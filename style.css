@@ -60,7 +60,8 @@ body {
 
 .wrap {
 	width: 1200px;
-	margin: 6em auto;
+	margin: 2em auto;
+	
 }
 
 nav {
@@ -176,15 +177,30 @@ nav {
 }
 
 
+#textoWrapper{
+	float:right;
+	width:83%;
+	margin-left:2%;
+	margin-right:2%;
+}
 
-
-
-
-#texto{
+#textoWrapper article{
 	background-color:white;
 	float:right;
-	width:82%;
+	width:100%;
+	margin-top:1%;
+	margin-bottom:1%;
+	border-radius: 12px;
 }
+
+.texto{
+	margin-left:1%;
+	margin-right:1%;
+	margin-top:0%;
+	margin-bottom: 0.5em;
+	
+}
+
 
 
 

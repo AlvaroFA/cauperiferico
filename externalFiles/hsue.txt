@@ -1,0 +1,10 @@
+﻿##
+Escalado BEN::HSUE 
+##
+Proceso de firma de un ISU 
+
+1. Finaliza el informe
+2. Hace click en el icono "enviar a firmar"
+3. Visita la página de sala de sinaturas: https://saladesinaturas.xunta.es/login
+4. Firma el documento con su certificado en esa página
+5. En HSUE navega hasta la página menú>miñas sinaturas y actualiza el estado de la solicitud. Si lo ha hecho correctamente debería ponerle firmado
